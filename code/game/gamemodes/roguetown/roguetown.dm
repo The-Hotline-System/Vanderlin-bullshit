@@ -250,6 +250,7 @@ GLOBAL_LIST_INIT(roguegamemodes, list(
 	"Priest",
 	"Templar",
 	"Acolytes",
+	"Gravetender",
 	"Royal Knight",
 	"Garrison Guard",
 	"Jailor",
@@ -449,6 +450,7 @@ GLOBAL_LIST_INIT(roguegamemodes, list(
 	"Veteran",
 	"Templar",
 	"Acolytes",
+	"Gravetender",
 	"Apothecary")
 	antag_candidates = get_players_for_role(ROLE_ZIZOIDCULTIST)
 	antag_candidates = shuffle(antag_candidates)
@@ -535,6 +537,7 @@ GLOBAL_LIST_INIT(roguegamemodes, list(
 	"Acolyte",
 	"Adepts",
 	"Templar",
+	"Gravetender",
 	"Bandit",
 	"Prince",
 	"Princess",
@@ -595,6 +598,7 @@ GLOBAL_LIST_INIT(roguegamemodes, list(
 	"Acolyte",
 	"Adepts",
 	"Templar",
+	"Gravetender",
 	"Mercenary",
 	"Bandit",
 	"Prince",
